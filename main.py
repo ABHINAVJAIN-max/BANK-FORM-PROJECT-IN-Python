@@ -1,6 +1,10 @@
 from tkinter import*
 from tkinter import messagebox as msg
 root=Tk()
+r1=Radiobutton(root,text='male',value='male')
+r1.pack()
+r2=Radiobutton(root,text='female',value='female')
+r2.pack()
 def sayhello():
   print('hello')
 def hello():
