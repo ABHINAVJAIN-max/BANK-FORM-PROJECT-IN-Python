@@ -8,7 +8,7 @@ def hello():
   msg.showinfo('message','thanks for login ' + uid)
 l1=Label(root,text='login id',bg='light blue',fg='red',font=('algerian,16'))
 l1.pack()
-t1=Entry(root)
+t1=Entry(root,bg='light grey',bd=5,insertwidth=6,justify='center')
 t1.pack()
 l2=Label(root,text='Password')
 l2.pack()
